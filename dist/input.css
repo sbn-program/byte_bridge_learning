@@ -2,3 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: 'abster';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./fonts/ABSTER.otf');
+  }
+  @font-face {
+    font-family: 'dana';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./fonts/Dana-Medium.ttf');
+  }
+  @font-face {
+    font-family: 'warzone';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./fonts/warzone-warzone-400.ttf');
+  }
+  @font-face {
+    font-family: 'radin';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./fonts/M_Radin3.otf');
+  }
+  @font-face {
+    font-family: 'khodkar';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./fonts/Khodkar.ttf');
+  }
+  @font-face {
+    font-family: 'battle-bingo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./fonts/Battle-Bingo.ttf');
+  }
+}
